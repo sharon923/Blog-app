@@ -5,11 +5,13 @@ import AddBlog from './components/AddBlog';
 import ViewBlog from './components/ViewBlog';
 import ViewMyBlog from './components/ViewMyBlog';
 import Register from './components/Register';
+import Login from './components/Login';
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
+      <Route path = '' element={<Login/>}/>
       <Route path = 'add' element={<AddBlog/>}/>
       <Route path = 'view' element={<ViewBlog/>}/>
       <Route path = 'viewblog' element={<ViewMyBlog/>}/>
