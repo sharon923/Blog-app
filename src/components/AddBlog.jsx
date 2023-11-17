@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import HeaderBlog from './HeaderBlog'
 
 const AddBlog = () => {
 
@@ -24,6 +25,7 @@ const AddBlog = () => {
     }
   return (
     <div>
+        <HeaderBlog/>
 
 <div className="container">
             <div className="row">

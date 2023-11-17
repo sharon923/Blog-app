@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import HeaderBlog from './HeaderBlog'
 
 const ViewBlog = () => {
     const[data, dataChange] = useState([])
@@ -15,6 +16,7 @@ const ViewBlog = () => {
 
   return (
     <div>
+        <HeaderBlog/>
 
 <div className="container">
                 <br></br><br></br>
