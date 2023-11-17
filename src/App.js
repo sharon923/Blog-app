@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AddBlog from './components/AddBlog';
 import ViewBlog from './components/ViewBlog';
 import ViewMyBlog from './components/ViewMyBlog';
+import Register from './components/Register';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path = 'add' element={<AddBlog/>}/>
       <Route path = 'view' element={<ViewBlog/>}/>
       <Route path = 'viewblog' element={<ViewMyBlog/>}/>
+      <Route path = 'register' element={<Register/>}/>
     </Routes>
     </BrowserRouter>
   );
